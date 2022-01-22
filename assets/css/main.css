@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video, topright {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -410,6 +410,7 @@ input, select, textarea {
 		}
 
 		.row > .off-10 {
+			margin-top: -12%;
 			margin-left: 83.33333%;
 		}
 
@@ -2196,6 +2197,7 @@ input, select, textarea {
 			line-height: 1.25em;
 			margin-bottom: 0;
 		}
+
 
 		#header header p {
 			margin-top: 1.25em;
