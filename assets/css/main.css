@@ -291,7 +291,6 @@ input, select, textarea {
 /* Cards */
 
 		.card {
-			background-image: url(images/pic01.jpg);
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 			transition: 0.3s;
 		}
@@ -1635,6 +1634,14 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		
+		.image.top {
+			display: block;
+			width: 40%;
+			margin-left: 30%;
+			margin-top: -25%;
+			
+		}
 
 /* List */
 
@@ -2269,13 +2276,19 @@ input, select, textarea {
 
 /* Main Sections */
 
+	.maintwo > header{
+		text-align: center;
+		padding: 5em 0 5em 0;
+		margin: 0;
+	}
+
 	.main {
 		position: relative;
 		margin: 0;
 	}
 
 		.main > header {
-			/*background: #fff;*/
+			background: #fff;
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
