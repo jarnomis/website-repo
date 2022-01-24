@@ -288,6 +288,61 @@ input, select, textarea {
 
 		}
 
+/* Cards */
+
+		.card {
+			background-image: url(images/pic01.jpg);
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			transition: 0.3s;
+		}
+
+		.card:hover {
+			box-shadow: 0 8pc 16px 0 rgba(0,0,0,0.2);
+		}
+
+		.card.container {
+			padding: 2px 16px;
+		}
+
+/* FAQ */
+
+	.box {
+		width: 1280px;
+		margin: 100px auto;
+		padding: 10px;		
+		border-radius: 7px;
+		box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.FAQ {
+		padding: 0px 20px 20px;
+	}
+
+	summary {
+		cursor: pointer;
+		padding: 30px 20px;
+    	width: 60%;
+    	border: none;
+    	outline: none;
+    	transition: 0.4s;
+    	margin: auto;
+	}
+
+	details{
+		padding: 10px;
+		border-radius: 7px;
+		margin-top: 20px;
+		text-align: left;
+		box-shadow: 1px 0px 4px rgba(0,0,0,.3);
+	}
+
+	p {
+		text-align: left;
+		padding: 20px 20px;
+	}
+
 /* Row */
 
 	.row {
@@ -2220,7 +2275,7 @@ input, select, textarea {
 	}
 
 		.main > header {
-			background: #fff;
+			/*background: #fff;*/
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
@@ -2260,6 +2315,10 @@ input, select, textarea {
 
 			.main > .content.style3 {
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+			}
+
+			.main > .content.style5 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #222b26, #31414b, #3b4761);
 			}
 
 			.main > .content.style4 {
